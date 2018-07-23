@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6EAFDE2105F0890043D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */; };
+		DF6EAFE02105F0890043D2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFDF2105F0890043D2FC /* ViewController.swift */; };
+		DF6EAFE22105F08B0043D2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6EAFE12105F08B0043D2FC /* Assets.xcassets */; };
+		DF6EAFE52105F08B0043D2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6EAFE32105F08B0043D2FC /* Main.storyboard */; };
+		DF6EAFF12105F08B0043D2FC /* Noughts___CrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFF02105F08B0043D2FC /* Noughts___CrossesTests.swift */; };
+		DF6EAFFC2105F08B0043D2FC /* Noughts___CrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFFB2105F08B0043D2FC /* Noughts___CrossesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6EAFED2105F08B0043D2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6EAFD22105F0890043D2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6EAFD92105F0890043D2FC;
+			remoteInfo = "Noughts & Crosses";
+		};
+		DF6EAFF82105F08B0043D2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6EAFD22105F0890043D2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6EAFD92105F0890043D2FC;
+			remoteInfo = "Noughts & Crosses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF6EAFDA2105F0890043D2FC /* Noughts & Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts & Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF6EAFDF2105F0890043D2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF6EAFE12105F08B0043D2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6EAFE42105F08B0043D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6EAFE62105F08B0043D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6EAFE72105F08B0043D2FC /* Noughts___Crosses.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Noughts___Crosses.entitlements"; sourceTree = "<group>"; };
+		DF6EAFEC2105F08B0043D2FC /* Noughts & CrossesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts & CrossesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6EAFF02105F08B0043D2FC /* Noughts___CrossesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Noughts___CrossesTests.swift"; sourceTree = "<group>"; };
+		DF6EAFF22105F08B0043D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6EAFF72105F08B0043D2FC /* Noughts & CrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts & CrossesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6EAFFB2105F08B0043D2FC /* Noughts___CrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Noughts___CrossesUITests.swift"; sourceTree = "<group>"; };
+		DF6EAFFD2105F08B0043D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6EAFD72105F0890043D2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFE92105F08B0043D2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFF42105F08B0043D2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6EAFD12105F0890043D2FC = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFDC2105F0890043D2FC /* Noughts & Crosses */,
+				DF6EAFEF2105F08B0043D2FC /* Noughts & CrossesTests */,
+				DF6EAFFA2105F08B0043D2FC /* Noughts & CrossesUITests */,
+				DF6EAFDB2105F0890043D2FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6EAFDB2105F0890043D2FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFDA2105F0890043D2FC /* Noughts & Crosses.app */,
+				DF6EAFEC2105F08B0043D2FC /* Noughts & CrossesTests.xctest */,
+				DF6EAFF72105F08B0043D2FC /* Noughts & CrossesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6EAFDC2105F0890043D2FC /* Noughts & Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */,
+				DF6EAFDF2105F0890043D2FC /* ViewController.swift */,
+				DF6EAFE12105F08B0043D2FC /* Assets.xcassets */,
+				DF6EAFE32105F08B0043D2FC /* Main.storyboard */,
+				DF6EAFE62105F08B0043D2FC /* Info.plist */,
+				DF6EAFE72105F08B0043D2FC /* Noughts___Crosses.entitlements */,
+			);
+			path = "Noughts & Crosses";
+			sourceTree = "<group>";
+		};
+		DF6EAFEF2105F08B0043D2FC /* Noughts & CrossesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFF02105F08B0043D2FC /* Noughts___CrossesTests.swift */,
+				DF6EAFF22105F08B0043D2FC /* Info.plist */,
+			);
+			path = "Noughts & CrossesTests";
+			sourceTree = "<group>";
+		};
+		DF6EAFFA2105F08B0043D2FC /* Noughts & CrossesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFFB2105F08B0043D2FC /* Noughts___CrossesUITests.swift */,
+				DF6EAFFD2105F08B0043D2FC /* Info.plist */,
+			);
+			path = "Noughts & CrossesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6EAFD92105F0890043D2FC /* Noughts & Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6EB0002105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & Crosses" */;
+			buildPhases = (
+				DF6EAFD62105F0890043D2FC /* Sources */,
+				DF6EAFD72105F0890043D2FC /* Frameworks */,
+				DF6EAFD82105F0890043D2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts & Crosses";
+			productName = "Noughts & Crosses";
+			productReference = DF6EAFDA2105F0890043D2FC /* Noughts & Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6EAFEB2105F08B0043D2FC /* Noughts & CrossesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6EB0032105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & CrossesTests" */;
+			buildPhases = (
+				DF6EAFE82105F08B0043D2FC /* Sources */,
+				DF6EAFE92105F08B0043D2FC /* Frameworks */,
+				DF6EAFEA2105F08B0043D2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6EAFEE2105F08B0043D2FC /* PBXTargetDependency */,
+			);
+			name = "Noughts & CrossesTests";
+			productName = "Noughts & CrossesTests";
+			productReference = DF6EAFEC2105F08B0043D2FC /* Noughts & CrossesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF6EAFF62105F08B0043D2FC /* Noughts & CrossesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6EB0062105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & CrossesUITests" */;
+			buildPhases = (
+				DF6EAFF32105F08B0043D2FC /* Sources */,
+				DF6EAFF42105F08B0043D2FC /* Frameworks */,
+				DF6EAFF52105F08B0043D2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6EAFF92105F08B0043D2FC /* PBXTargetDependency */,
+			);
+			name = "Noughts & CrossesUITests";
+			productName = "Noughts & CrossesUITests";
+			productReference = DF6EAFF72105F08B0043D2FC /* Noughts & CrossesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6EAFD22105F0890043D2FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Will W";
+				TargetAttributes = {
+					DF6EAFD92105F0890043D2FC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DF6EAFEB2105F08B0043D2FC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF6EAFD92105F0890043D2FC;
+					};
+					DF6EAFF62105F08B0043D2FC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF6EAFD92105F0890043D2FC;
+					};
+				};
+			};
+			buildConfigurationList = DF6EAFD52105F0890043D2FC /* Build configuration list for PBXProject "Noughts & Crosses" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6EAFD12105F0890043D2FC;
+			productRefGroup = DF6EAFDB2105F0890043D2FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6EAFD92105F0890043D2FC /* Noughts & Crosses */,
+				DF6EAFEB2105F08B0043D2FC /* Noughts & CrossesTests */,
+				DF6EAFF62105F08B0043D2FC /* Noughts & CrossesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6EAFD82105F0890043D2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6EAFE22105F08B0043D2FC /* Assets.xcassets in Resources */,
+				DF6EAFE52105F08B0043D2FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFEA2105F08B0043D2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFF52105F08B0043D2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6EAFD62105F0890043D2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6EAFE02105F0890043D2FC /* ViewController.swift in Sources */,
+				DF6EAFDE2105F0890043D2FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFE82105F08B0043D2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6EAFF12105F08B0043D2FC /* Noughts___CrossesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6EAFF32105F08B0043D2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6EAFFC2105F08B0043D2FC /* Noughts___CrossesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6EAFEE2105F08B0043D2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6EAFD92105F0890043D2FC /* Noughts & Crosses */;
+			targetProxy = DF6EAFED2105F08B0043D2FC /* PBXContainerItemProxy */;
+		};
+		DF6EAFF92105F08B0043D2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6EAFD92105F0890043D2FC /* Noughts & Crosses */;
+			targetProxy = DF6EAFF82105F08B0043D2FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6EAFE32105F08B0043D2FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6EAFE42105F08B0043D2FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6EAFFE2105F08B0043D2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF6EAFFF2105F08B0043D2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF6EB0012105F08B0043D2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Noughts & Crosses/Noughts___Crosses.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DF6EB0022105F08B0043D2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Noughts & Crosses/Noughts___Crosses.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		DF6EB0042105F08B0043D2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts & Crosses.app/Contents/MacOS/Noughts & Crosses";
+			};
+			name = Debug;
+		};
+		DF6EB0052105F08B0043D2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts & Crosses.app/Contents/MacOS/Noughts & Crosses";
+			};
+			name = Release;
+		};
+		DF6EB0072105F08B0043D2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Noughts & Crosses";
+			};
+			name = Debug;
+		};
+		DF6EB0082105F08B0043D2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F99YVZ4WEW;
+				INFOPLIST_FILE = "Noughts & CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Noughts & Crosses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6EAFD52105F0890043D2FC /* Build configuration list for PBXProject "Noughts & Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6EAFFE2105F08B0043D2FC /* Debug */,
+				DF6EAFFF2105F08B0043D2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6EB0002105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6EB0012105F08B0043D2FC /* Debug */,
+				DF6EB0022105F08B0043D2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6EB0032105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & CrossesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6EB0042105F08B0043D2FC /* Debug */,
+				DF6EB0052105F08B0043D2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6EB0062105F08B0043D2FC /* Build configuration list for PBXNativeTarget "Noughts & CrossesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6EB0072105F08B0043D2FC /* Debug */,
+				DF6EB0082105F08B0043D2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6EAFD22105F0890043D2FC /* Project object */;
+}
