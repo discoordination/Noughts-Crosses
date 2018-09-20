@@ -88,7 +88,7 @@ class GameVC: NSViewController {
 		
 		topView.textField = topText
 		topView.shadowField = topShadowText
-		initialiseGame()
+		initialiseGame(newGame: true)
     }
 	
 	
@@ -102,20 +102,19 @@ class GameVC: NSViewController {
 extension GameVC /* Move Functions */ {
 	
 	
-	private func initialiseGame() {
+	private func initialiseGame(newGame:Bool = false) {
 		
 		playerToken = playerTokenSelectionMenu.titleOfSelectedItem == MenuItemTitle.PlayerTokenSelectionMenu.XSelected ? "X" : "O"
 		aiToken = playerToken == "X" ? "O" : "X"
 		
 		currentAIType = AIs.first(where: {$0.description == AISelectionMenu.item(at: 0)!.title})!.type as! BaseAI.Type
 		
-		if isObservingAITurn {
+		if !firstTurn {
 			removeObserver(self, forKeyPath: #keyPath(ai.currentTurnParticipantRaw))
 		}
-		ai = currentAIType.init(playerCharacter: playerToken, playerMovesFirst: playerTurn)
+		ai = currentAIType.init(playerCharacter: playerToken, playerMovesFirst: newGame ? true : playerTurn)
 		addObserver(self, forKeyPath: #keyPath(ai.currentTurnParticipantRaw),
 					options: [.new, .initial], context: nil)
-		isObservingAITurn = true
 		
 		playerTurn = playerMovesFirstSelectionMenu.titleOfSelectedItem == MenuItemTitle.MovesFirstMenu.PlayerMoveFirst ? true : false
 		
