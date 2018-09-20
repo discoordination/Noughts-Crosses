@@ -75,7 +75,6 @@ class GameVC: NSViewController {
 		get { return ai.currentTurnParticipant == .aiOpponent }
 		set { ai.currentTurnParticipant = newValue == true ? .aiOpponent : .AI }
 	}
-	var isObservingAITurn = false
 	
 	var board = Board() {
 		didSet {
@@ -109,7 +108,7 @@ extension GameVC /* Move Functions */ {
 		
 		currentAIType = AIs.first(where: {$0.description == AISelectionMenu.item(at: 0)!.title})!.type as! BaseAI.Type
 		
-		if !firstTurn {
+		if !newGame {
 			removeObserver(self, forKeyPath: #keyPath(ai.currentTurnParticipantRaw))
 		}
 		ai = currentAIType.init(playerCharacter: playerToken, playerMovesFirst: newGame ? true : playerTurn)
