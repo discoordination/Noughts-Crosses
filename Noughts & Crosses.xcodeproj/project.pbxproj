@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF43BE83214EEEBE0053D0DA /* BlankShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BE82214EEEBE0053D0DA /* BlankShapeLayer.swift */; };
+		DF43BE85214FD7220053D0DA /* CrossOutShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BE84214FD7220053D0DA /* CrossOutShapeLayer.swift */; };
+		DF5E2D57214E7FD300945DB0 /* OShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E2D56214E7FD300945DB0 /* OShapeLayer.swift */; };
+		DF5E2D59214E7FE200945DB0 /* XShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E2D58214E7FE200945DB0 /* XShapeLayer.swift */; };
 		DF6EAFDE2105F0890043D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */; };
-		DF6EAFE02105F0890043D2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFDF2105F0890043D2FC /* ViewController.swift */; };
+		DF6EAFE02105F0890043D2FC /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFDF2105F0890043D2FC /* GameVC.swift */; };
 		DF6EAFE22105F08B0043D2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6EAFE12105F08B0043D2FC /* Assets.xcassets */; };
 		DF6EAFE52105F08B0043D2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6EAFE32105F08B0043D2FC /* Main.storyboard */; };
 		DF6EAFF12105F08B0043D2FC /* Noughts___CrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFF02105F08B0043D2FC /* Noughts___CrossesTests.swift */; };
 		DF6EAFFC2105F08B0043D2FC /* Noughts___CrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EAFFB2105F08B0043D2FC /* Noughts___CrossesUITests.swift */; };
+		DF738C752147B5E300C6B293 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF738C742147B5E300C6B293 /* SideView.swift */; };
+		DF82848121458A85000D367F /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82848021458A85000D367F /* Board.swift */; };
+		DF82849E2145F221000D367F /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82849D2145F221000D367F /* BlankView.swift */; };
+		DF8284A0214663B8000D367F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82849F214663B8000D367F /* CellView.swift */; };
+		DF8D7E9D2147B92300D7BDF8 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D7E9C2147B92300D7BDF8 /* MyButton.swift */; };
+		DFBA39B6213ED8A40069A7B1 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39B5213ED8A40069A7B1 /* BoardView.swift */; };
+		DFBA39B8213ED8D00069A7B1 /* MinMaxAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39B7213ED8D00069A7B1 /* MinMaxAI.swift */; };
+		DFBA39BA213EFCE70069A7B1 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39B9213EFCE70069A7B1 /* TopView.swift */; };
+		DFBA39BC213F013D0069A7B1 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39BB213F013D0069A7B1 /* Colours.swift */; };
+		DFBA39BE213FD1B60069A7B1 /* XView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39BD213FD1B60069A7B1 /* XView.swift */; };
+		DFBA39C0213FD1C60069A7B1 /* OView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA39BF213FD1C60069A7B1 /* OView.swift */; };
+		DFBFE4C221515E9C005E6C2C /* RandomAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFE4C121515E9C005E6C2C /* RandomAI.swift */; };
+		DFBFE4C4215164CC005E6C2C /* BaseAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFE4C3215164CC005E6C2C /* BaseAI.swift */; };
+		DFBFE4EA21525547005E6C2C /* BrokenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFE4E921525547005E6C2C /* BrokenAI.swift */; };
+		DFBFE4EC2152B3F5005E6C2C /* MinMaxOptiAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFE4EB2152B3F5005E6C2C /* MinMaxOptiAI.swift */; };
+		DFBFE52921537CA5005E6C2C /* RLAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFE52821537CA5005E6C2C /* RLAI.swift */; };
+		DFF8353721497976000CC4E9 /* TicTacToeBoardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8353621497976000CC4E9 /* TicTacToeBoardProtocol.swift */; };
+		DFF8353921497986000CC4E9 /* TicTacToeAiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8353821497986000CC4E9 /* TicTacToeAiProtocol.swift */; };
+		DFF8353B214B9BEE000CC4E9 /* ScratchOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8353A214B9BEE000CC4E9 /* ScratchOutView.swift */; };
+		DFF8355D214C3869000CC4E9 /* EndGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8355C214C3869000CC4E9 /* EndGameVC.swift */; };
+		DFF8355F214C6508000CC4E9 /* TransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8355E214C6508000CC4E9 /* TransparentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF43BE82214EEEBE0053D0DA /* BlankShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankShapeLayer.swift; sourceTree = "<group>"; };
+		DF43BE84214FD7220053D0DA /* CrossOutShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossOutShapeLayer.swift; sourceTree = "<group>"; };
+		DF5E2D56214E7FD300945DB0 /* OShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OShapeLayer.swift; sourceTree = "<group>"; };
+		DF5E2D58214E7FE200945DB0 /* XShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XShapeLayer.swift; sourceTree = "<group>"; };
 		DF6EAFDA2105F0890043D2FC /* Noughts & Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts & Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF6EAFDF2105F0890043D2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF6EAFDF2105F0890043D2FC /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		DF6EAFE12105F08B0043D2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF6EAFE42105F08B0043D2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF6EAFE62105F08B0043D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +75,27 @@
 		DF6EAFF72105F08B0043D2FC /* Noughts & CrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts & CrossesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6EAFFB2105F08B0043D2FC /* Noughts___CrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Noughts___CrossesUITests.swift"; sourceTree = "<group>"; };
 		DF6EAFFD2105F08B0043D2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF738C742147B5E300C6B293 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
+		DF82848021458A85000D367F /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DF82849D2145F221000D367F /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		DF82849F214663B8000D367F /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		DF8D7E9C2147B92300D7BDF8 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		DFBA39B5213ED8A40069A7B1 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DFBA39B7213ED8D00069A7B1 /* MinMaxAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMaxAI.swift; sourceTree = "<group>"; };
+		DFBA39B9213EFCE70069A7B1 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		DFBA39BB213F013D0069A7B1 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		DFBA39BD213FD1B60069A7B1 /* XView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XView.swift; sourceTree = "<group>"; };
+		DFBA39BF213FD1C60069A7B1 /* OView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OView.swift; sourceTree = "<group>"; };
+		DFBFE4C121515E9C005E6C2C /* RandomAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAI.swift; sourceTree = "<group>"; };
+		DFBFE4C3215164CC005E6C2C /* BaseAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAI.swift; sourceTree = "<group>"; };
+		DFBFE4E921525547005E6C2C /* BrokenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenAI.swift; sourceTree = "<group>"; };
+		DFBFE4EB2152B3F5005E6C2C /* MinMaxOptiAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMaxOptiAI.swift; sourceTree = "<group>"; };
+		DFBFE52821537CA5005E6C2C /* RLAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLAI.swift; sourceTree = "<group>"; };
+		DFF8353621497976000CC4E9 /* TicTacToeBoardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeBoardProtocol.swift; sourceTree = "<group>"; };
+		DFF8353821497986000CC4E9 /* TicTacToeAiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeAiProtocol.swift; sourceTree = "<group>"; };
+		DFF8353A214B9BEE000CC4E9 /* ScratchOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchOutView.swift; sourceTree = "<group>"; };
+		DFF8355C214C3869000CC4E9 /* EndGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameVC.swift; sourceTree = "<group>"; };
+		DFF8355E214C6508000CC4E9 /* TransparentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +123,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF5E2D55214E7FA700945DB0 /* ShapeLayers */ = {
+			isa = PBXGroup;
+			children = (
+				DF43BE82214EEEBE0053D0DA /* BlankShapeLayer.swift */,
+				DF5E2D56214E7FD300945DB0 /* OShapeLayer.swift */,
+				DF5E2D58214E7FE200945DB0 /* XShapeLayer.swift */,
+				DF43BE84214FD7220053D0DA /* CrossOutShapeLayer.swift */,
+			);
+			name = ShapeLayers;
+			sourceTree = "<group>";
+		};
 		DF6EAFD12105F0890043D2FC = {
 			isa = PBXGroup;
 			children = (
@@ -96,12 +157,9 @@
 		DF6EAFDC2105F0890043D2FC /* Noughts & Crosses */ = {
 			isa = PBXGroup;
 			children = (
-				DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */,
-				DF6EAFDF2105F0890043D2FC /* ViewController.swift */,
-				DF6EAFE12105F08B0043D2FC /* Assets.xcassets */,
 				DF6EAFE32105F08B0043D2FC /* Main.storyboard */,
-				DF6EAFE62105F08B0043D2FC /* Info.plist */,
-				DF6EAFE72105F08B0043D2FC /* Noughts___Crosses.entitlements */,
+				DFBA39B4213ED8190069A7B1 /* Core */,
+				DFBA39B3213ED8160069A7B1 /* Classes */,
 			);
 			path = "Noughts & Crosses";
 			sourceTree = "<group>";
@@ -122,6 +180,87 @@
 				DF6EAFFD2105F08B0043D2FC /* Info.plist */,
 			);
 			path = "Noughts & CrossesUITests";
+			sourceTree = "<group>";
+		};
+		DF738C762147B8AC00C6B293 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D7E9C2147B92300D7BDF8 /* MyButton.swift */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		DF8284A1214663D7000D367F /* BoardCells */ = {
+			isa = PBXGroup;
+			children = (
+				DF82849F214663B8000D367F /* CellView.swift */,
+				DF82849D2145F221000D367F /* BlankView.swift */,
+				DFBA39BD213FD1B60069A7B1 /* XView.swift */,
+				DFBA39BF213FD1C60069A7B1 /* OView.swift */,
+			);
+			name = BoardCells;
+			sourceTree = "<group>";
+		};
+		DFBA39B3213ED8160069A7B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA39BB213F013D0069A7B1 /* Colours.swift */,
+				DF6EAFDF2105F0890043D2FC /* GameVC.swift */,
+				DFF8355C214C3869000CC4E9 /* EndGameVC.swift */,
+				DFF8353521497935000CC4E9 /* Type Protocols */,
+				DF738C762147B8AC00C6B293 /* Custom Buttons */,
+				DFC38A912147B5400086DE53 /* Views */,
+				DFC38A662146D3F30086DE53 /* Model */,
+				DF5E2D55214E7FA700945DB0 /* ShapeLayers */,
+				DF8284A1214663D7000D367F /* BoardCells */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DFBA39B4213ED8190069A7B1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF6EAFDD2105F0890043D2FC /* AppDelegate.swift */,
+				DF6EAFE62105F08B0043D2FC /* Info.plist */,
+				DF6EAFE12105F08B0043D2FC /* Assets.xcassets */,
+				DF6EAFE72105F08B0043D2FC /* Noughts___Crosses.entitlements */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DFC38A662146D3F30086DE53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF82848021458A85000D367F /* Board.swift */,
+				DFBFE4C3215164CC005E6C2C /* BaseAI.swift */,
+				DFBA39B7213ED8D00069A7B1 /* MinMaxAI.swift */,
+				DFBFE4C121515E9C005E6C2C /* RandomAI.swift */,
+				DFBFE4EB2152B3F5005E6C2C /* MinMaxOptiAI.swift */,
+				DFBFE52821537CA5005E6C2C /* RLAI.swift */,
+				DFBFE4E921525547005E6C2C /* BrokenAI.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DFC38A912147B5400086DE53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA39B9213EFCE70069A7B1 /* TopView.swift */,
+				DFBA39B5213ED8A40069A7B1 /* BoardView.swift */,
+				DF738C742147B5E300C6B293 /* SideView.swift */,
+				DFF8353A214B9BEE000CC4E9 /* ScratchOutView.swift */,
+				DFF8355E214C6508000CC4E9 /* TransparentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DFF8353521497935000CC4E9 /* Type Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8353621497976000CC4E9 /* TicTacToeBoardProtocol.swift */,
+				DFF8353821497986000CC4E9 /* TicTacToeAiProtocol.swift */,
+			);
+			name = "Type Protocols";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,13 +331,21 @@
 				TargetAttributes = {
 					DF6EAFD92105F0890043D2FC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					DF6EAFEB2105F08B0043D2FC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = DF6EAFD92105F0890043D2FC;
 					};
 					DF6EAFF62105F08B0043D2FC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = DF6EAFD92105F0890043D2FC;
 					};
 				};
@@ -254,8 +401,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6EAFE02105F0890043D2FC /* ViewController.swift in Sources */,
+				DF8284A0214663B8000D367F /* CellView.swift in Sources */,
+				DFBA39C0213FD1C60069A7B1 /* OView.swift in Sources */,
+				DF82849E2145F221000D367F /* BlankView.swift in Sources */,
+				DF43BE85214FD7220053D0DA /* CrossOutShapeLayer.swift in Sources */,
+				DFBFE4C4215164CC005E6C2C /* BaseAI.swift in Sources */,
+				DF8D7E9D2147B92300D7BDF8 /* MyButton.swift in Sources */,
+				DFBA39B6213ED8A40069A7B1 /* BoardView.swift in Sources */,
+				DFBFE52921537CA5005E6C2C /* RLAI.swift in Sources */,
+				DFBFE4C221515E9C005E6C2C /* RandomAI.swift in Sources */,
+				DF43BE83214EEEBE0053D0DA /* BlankShapeLayer.swift in Sources */,
+				DFF8355F214C6508000CC4E9 /* TransparentView.swift in Sources */,
+				DFBA39BC213F013D0069A7B1 /* Colours.swift in Sources */,
+				DFBA39BA213EFCE70069A7B1 /* TopView.swift in Sources */,
+				DF5E2D59214E7FE200945DB0 /* XShapeLayer.swift in Sources */,
+				DF6EAFE02105F0890043D2FC /* GameVC.swift in Sources */,
+				DFF8353721497976000CC4E9 /* TicTacToeBoardProtocol.swift in Sources */,
+				DFBFE4EA21525547005E6C2C /* BrokenAI.swift in Sources */,
+				DFF8353921497986000CC4E9 /* TicTacToeAiProtocol.swift in Sources */,
+				DFBFE4EC2152B3F5005E6C2C /* MinMaxOptiAI.swift in Sources */,
+				DFF8353B214B9BEE000CC4E9 /* ScratchOutView.swift in Sources */,
+				DF5E2D57214E7FD300945DB0 /* OShapeLayer.swift in Sources */,
 				DF6EAFDE2105F0890043D2FC /* AppDelegate.swift in Sources */,
+				DFBA39BE213FD1B60069A7B1 /* XView.swift in Sources */,
+				DF738C752147B5E300C6B293 /* SideView.swift in Sources */,
+				DFBA39B8213ED8D00069A7B1 /* MinMaxAI.swift in Sources */,
+				DFF8355D214C3869000CC4E9 /* EndGameVC.swift in Sources */,
+				DF82848121458A85000D367F /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +591,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Noughts & Crosses/Noughts___Crosses.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F99YVZ4WEW;
@@ -430,7 +601,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---Crosses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -438,7 +609,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Noughts & Crosses/Noughts___Crosses.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F99YVZ4WEW;
@@ -449,7 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---Crosses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -469,7 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts & Crosses.app/Contents/MacOS/Noughts & Crosses";
 			};
 			name = Debug;
@@ -490,7 +660,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts & Crosses.app/Contents/MacOS/Noughts & Crosses";
 			};
 			name = Release;
@@ -510,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "Noughts & Crosses";
 			};
 			name = Debug;
@@ -530,7 +700,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SparkCoordination.Noughts---CrossesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = "Noughts & Crosses";
 			};
 			name = Release;
